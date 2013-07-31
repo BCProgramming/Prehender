@@ -1,0 +1,16 @@
+C:\Users\BC_Programming\AppData\Local\Temporary Projects\BlockBuster\bin\Debug\BlockBuster.exe.config
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\BlockBuster.exe.config
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\BlockBuster.exe
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\BlockBuster.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\OpenTK.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\OpenTK.xml
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\obj\Debug\BlockBuster.csprojResolveAssemblyReference.cache
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\obj\Debug\BlockBuster.exe
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\obj\Debug\BlockBuster.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\BCFileSearch.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\System.Interactive.Async.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\BCFileSearch.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\System.Interactive.Async.xml
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\Jitter.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\Jitter.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2012\Projects\BlockBuster\BlockBuster\bin\Debug\DragonOgg.dll

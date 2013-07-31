@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F87D23F6-420A-4560-9B3D-2E47B4E21792}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Prehender</RootNamespace>
+    <AssemblyName>Prehender</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Bass.Net, Version=2.4.6.8, Culture=neutral, PublicKeyToken=b7566c273e6ef480, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Visual Studio 2008\Projects\BASeBlocks\Poing2\bin\Release\Bass.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\..\Visual Studio 2008\Projects\BASeBlocks\Poing2\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Jitter">
+      <HintPath>..\..\..\..\..\Downloads\Jitter 0.1.7.0 Binaries\Jitter 0.1.7.0 Binaries\bin\Release\Jitter.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio">
+      <HintPath>..\packages\NAudio.1.6\lib\net20\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="NVorbis">
+      <HintPath>..\packages\NVorbis.0.7.0\lib\NVorbis.dll</HintPath>
+    </Reference>
+    <Reference Include="NVorbis.NAudioSupport">
+      <HintPath>..\packages\NVorbis.NAudioSupport.0.5.6\lib\NVorbis.NAudioSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="NVorbis.OpenTKSupport">
+      <HintPath>..\packages\NVorbis.OpenTKSupport.1.0.0\lib\NVorbis.OpenTKSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\opentk_unoffical.1.1.788.3121\lib\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Compatibility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\OpenTK\1.0\Binaries\OpenTK\Release\OpenTK.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArenaStyle.cs" />
+    <Compile Include="Ball.cs" />
+    <Compile Include="cINIFile.cs" />
+    <Compile Include="DrawHelpers.cs" />
+    <Compile Include="HUD\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HUD\SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IColoredElement.cs" />
+    <Compile Include="ILocatable.cs" />
+    <Compile Include="IMovingObject.cs" />
+    <Compile Include="Particle.cs" />
+    <Compile Include="ParticleBatch.cs" />
+    <Compile Include="PrehenderGame.cs" />
+    <Compile Include="BlockObject.cs" />
+    <Compile Include="BoxArena.cs" />
+    <Compile Include="GameBlock.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="cLevel.cs" />
+    <Compile Include="Conversion.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="GameRunningState.cs" />
+    <Compile Include="GeometryHelper.cs" />
+    <Compile Include="HUD\HUDElement.cs" />
+    <Compile Include="HUD\SelectedBallColourHudElement.cs" />
+    <Compile Include="IGameState.cs" />
+    <Compile Include="IPhysical.cs" />
+    <Compile Include="IRenderable.cs" />
+    <Compile Include="IUpdatable.cs" />
+    <Compile Include="NextUpdateCall.cs" />
+    <Compile Include="PausedGameState.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sounds\BASSDriver.cs" />
+    <Compile Include="Sounds\DataManager.cs" />
+    <Compile Include="Sounds\DeletionHelper.cs" />
+    <Compile Include="Sounds\LoadedTypeManager.cs" />
+    <Compile Include="Sounds\NAudioDriver.cs" />
+    <Compile Include="Sounds\SoundItem.cs" />
+    <Compile Include="Sounds\SoundManager.cs" />
+    <Compile Include="TextureManager.cs" />
+    <Compile Include="Utilities\RandomizerUtilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FileIterator\BCFileSearch\BCFileSearch.csproj">
+      <Project>{e4b73427-5139-4e03-8bfa-4e3f8b6a6bed}</Project>
+      <Name>BCFileSearch</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HUD\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

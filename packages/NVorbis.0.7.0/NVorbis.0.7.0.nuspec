@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NVorbis</id>
+    <version>0.7.0</version>
+    <title>NVorbis</title>
+    <authors>Andrew Ward</authors>
+    <owners>Andrew Ward</owners>
+    <licenseUrl>http://nvorbis.codeplex.com/license</licenseUrl>
+    <projectUrl>http://nvorbis.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A fully managed implementation of a Xiph.org Foundation Ogg Vorbis decoder.</description>
+    <summary>A managed Xiph.org Foundation Ogg Vorbis decoder</summary>
+    <releaseNotes>- Rewrite Ogg Reader buffering logic to vastly improve memory usage
+- Reorganize to more easily support other container types / work with other Ogg stream decoders
+- Exposed Ogg reading types
+- Performance improvements
+- Bugfix: Don't throw on Vorbis streams that only have a single mode</releaseNotes>
+    <copyright />
+    <language>en-US</language>
+    <tags>ogg vorbis xiph audio c# sound .NET</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
